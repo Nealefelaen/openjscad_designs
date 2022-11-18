@@ -24,12 +24,12 @@ function frame()
         translate([0,455,-495], rotateX(dR(90), tSlot(950))),
         translate([0,455,495], rotateX(dR(90), tSlot(950))),
         translate([0,910,0], tSlot(950)),
-        translate([0,950+(493/2)-20,0], rotateX(dR(90), tSlot(493))),
+        translate([0,950+(493/2)-20,-200], rotateX(dR(90), tSlot(493))),
         translate([-150,130,-495], rotateX(dR(90), tSlot(300))),
         translate([150,130,-495], rotateX(dR(90), tSlot(300))),
         translate([0,0,-535], rotateY(dR(90), tSlot(700))),
-        translate([0,1400,40], rotateY(dR(90), tSlot(90))),
-        translate([0,1310,40], rotateY(dR(90), tSlot(90))),
+        translate([0,1400,-160], rotateY(dR(90), tSlot(90))),
+        translate([0,1310,-160], rotateY(dR(90), tSlot(90))),
         ];
     return f;
 }
